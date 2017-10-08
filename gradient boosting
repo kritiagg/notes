@@ -1,0 +1,15 @@
+# Classification Tree
+- classification tree ask a series of questions to answer a problem. It comes up with the values of all the features and then
+asks a series of questions on them to classify the points.
+- Since the set of splitting rules used to segment the
+predictor space can be summarized in a tree, these types of
+approaches are known as decision-tree methods.
+- Tree based approaches are simple but they are not as good as the state of the art approaches. Hence we have approaches like Bagging, 
+Boosting and random forests which use consensus of many trees to arrive at a solution.
+- The idea of creating a decision tree is to divide the overall region into regions according to set of inequalities between the
+features and their values.
+- Its impossible to consider all the splits, hence we use a greedy strategy to split the tree at each time, so as to take the best decision
+at the current step using the split that reduces the MSE by the maximum. 
+
+- But these methods can lead to overfitting as they can fir even the noise in the data
+- Hence, we do tree pruning.
