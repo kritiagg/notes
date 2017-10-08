@@ -29,6 +29,8 @@ at the current step using the split that reduces the MSE by the maximum.
 - All the trees are trying to solve the same problem so we can shake the data a little bit, by taking a random sample of data.
 - and then we average the trees, this helps as the trees are different and hence lesser variance.
 - Each tree gives the probability of the point we want to predict, we can average the trees to get the answer.
+- An example d_i is classified to the class for which the majority of particular
+classifiers vote. 
 
 # Random Forests
 - Easier to implement 
