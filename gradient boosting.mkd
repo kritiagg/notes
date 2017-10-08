@@ -36,8 +36,8 @@ creates a sequence of classifiers Hm, m=1,…,M in respect to modifications of t
 training set. These classifiers are combined into a compound classifier. The
 prediction of the compound classifier is given as a weighted combination of
 individual classifier predictions:
-H(d_i) = sign(_&alpha _{m} H_{m} d_{i})
-where the important/precise classifiers have higher _&alpha.
+H(d_i) = sign( _&alpha _m H_m d_i)
+where the important/precise classifiers have higher _&alpha
 # Random Forests
 - Easier to implement 
 - better than bagging.
