@@ -13,3 +13,31 @@ at the current step using the split that reduces the MSE by the maximum.
 
 - But these methods can lead to overfitting as they can fir even the noise in the data
 - Hence, we do tree pruning.
+
+## Pros
+- can handle huge data
+- Can handle discrete or continuous data well
+- Ignore redundant variables
+- Can handle missing variables
+
+## Cons
+- Bad predictions if high dimensions due to overfitting or large variance.
+- Large trees are hard to interpret.
+
+# Bagging
+- Individual tree is very noisy, so we can aggregate various trees.
+- All the trees are trying to solve the same problem so we can shake the data a little bit, by taking a random sample of data.
+- and then we average the trees, this helps as the trees are different and hence lesser variance.
+- Each tree gives the probability of the point we want to predict, we can average the trees to get the answer.
+
+# Random Forests
+- Easier to implement 
+- better than bagging.
+- Tries to add on top of bagging by creating the trees that are uncorelated as if the trees are uncorrelated, the variance gets reduced
+by 1/(no. of trees) while it depends in case of bagging.
+
+# Boosting
+- Dominates Bagging
+
+
+
