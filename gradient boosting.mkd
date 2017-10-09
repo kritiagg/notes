@@ -48,4 +48,5 @@ by 1/(no. of trees) while it depends in case of bagging.
 - Dominates Bagging
 
 
-
+## References
+[https://lagunita.stanford.edu/c4x/HumanitiesScience/StatLearning/asset/trees.pdf]
