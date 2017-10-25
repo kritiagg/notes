@@ -1,0 +1,11 @@
+# Correlations: 
+## How the two numbers behave with respect to each other that is are the numbers in sync with each other. 
+## Pearson correlation coefficient: numerator: covarince, denomenator helps in making the value of r to lie in between -1 and 1.
+r = sum(X_i - Xmean)(Y_i - Ymean)/(sqrt(sum(X_i - Xmean)^2 * sqrt(sum(Y_i - Ymean)^2))
+## If the X and Y are uncorrelated, then half of the numbers would increase as mean while half decrease and hence the overall effect will be
+0. 
+## Higher the correlation between the points, closer the points are to the fitting line. It does not tell the slope of the line
+## square of the sample correlation coefficient r^2 estimates the fraction of the variance in Y explained by X in a simple
+linear regression. 
+
+
