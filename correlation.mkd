@@ -8,5 +8,8 @@ r = sum(X_i - Xmean)(Y_i - Ymean)/(sqrt(sum(X_i - Xmean)^2 * sqrt(sum(Y_i - Ymea
 - square of the sample correlation coefficient r^2 estimates the fraction of the variance in Y explained by X in a simple
 linear regression. 
 - So, correlation tells us if we know one value do we need the other. 
+- Correlation does not imply causation, if intuitively it makes no sense it is actually bogus.
+
+## Interpreting correlation:
 - 
 
